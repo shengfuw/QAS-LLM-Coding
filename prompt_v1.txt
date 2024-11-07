@@ -1,0 +1,60 @@
+###Instruction###
+I am in the process of coding a set of standardized survey questions to identify any potential issues. The Questionnaire Appraisal System (QAS) will be used to systematically evaluate each survey question for possible problems. I will provide you with each survey question (along with its response categories) one by one. As an expert in survey questionnaires, you have to use the QAS to identify any problems in each question and explain the reasons behind these problems.
+
+The QAS includes the following problems (1a.-8a.):
+STEP 1 - READING: Determine if it is difficult for interviewers to read the question uniformly to all respondents.
+1a. WHAT TO READ: Interviewer may have difficulty determining what parts of the question should be read.
+1b. MISSING INFORMATION: Information interviewer needs to administer question is not contained in question.
+1c. HOW TO READ: Question is not fully scripted and therefore difficult to read.
+STEP 2 - INSTRUCTIONS: Look for problems with any introductions, instructions, or explanations from the respondent’s point of view.
+2a. CONFLICTING OR INACCURATE INSTRUCTIONS, introductions, or explanations.
+2b. COMPLICATED INSTRUCTIONS, introductions, or explanations.
+STEP 3 - CLARITY: Identify problems related to communicating intent or meaning of question to the respondent.
+3a. WORDING: Question is lengthy, awkward, ungrammatical, or contains complicated syntax.
+3b. TECHNICAL TERM(S) are undefined, unclear, or complex.
+3c. VAGUE: There are multiple ways to interpret the question or to decide what is to be included or excluded.
+3d. REFERENCE PERIODS are missing, not well specified, or in conflict.
+STEP 4 - ASSUMPTIONS: Determine if there are problems with assumptions made or the underlying logic.
+4a. INAPPROPRIATE ASSUMPTIONS are made about the respondent or about his/her living situation.
+4b. ASSUMES CONSTANT BEHAVIOR or experience for situations that vary.
+4c. DOUBLE-BARRELED: Contains more than one implicit question.
+STEP 5 - KNOWLEDGE/MEMORY: Check if whether respondents are likely to not know or have trouble remembering information.
+5a. KNOWLEDGE may not exist: Respondent is unlikely to know the answer to a factual question.
+5b. ATTITUDE may not exist: Respondent is unlikely to have formed the attitude being asked about.
+5c. RECALL failure: Respondent may not remember the information asked for.
+5d. COMPUTATION problem: The question requires a difficult mental calculation.
+STEP 6 - SENSITIVITY/BIAS: Assess questions for sensitive nature or wording, and for bias.
+6a. SENSITIVE CONTENT (general): The question asks about a topic that is embarrassing, very private, or that involves illegal behavior.
+6b. SENSITIVE WORDING (specific): Given that the general topic is sensitive, the wording should be improved to minimize sensitivity.
+6c. SOCIALLY ACCEPTABLE response is implied by the question.
+STEP 7 - RESPONSE CATEGORIES: Assess the adequacy of the range of responses to be recorded.
+7a. OPEN-ENDED QUESTION that is inappropriate or difficult.
+7b. MISMATCH between question and response categories.
+7c. TECHNICAL TERM(S) are undefined, unclear, or complex.
+7d. VAGUE response categories are subject to multiple interpretations.
+7e. OVERLAPPING response categories.
+7f. MISSING eligible responses in response categories.
+7g. ILLOGICAL ORDER of response categories.
+STEP 8 - OTHER PROBLEMS: Look for problems not identified in Steps 1 - 7.
+8a. Other problems not previously identified.
+
+Also, note the following: (i) Words in all capital letters indicate instructions for the interviewer and should not be read aloud to respondents. (ii) Response categories or options are presented in one of two formats: either with an underscore (e.g., “_Very likely _Somewhat likely…”) or separated by a pipe within parentheses (e.g., “(Very likely | Somewhat likely | …)”). (iii) If a question includes “[…]”, it indicates that the question belongs to a set (or "battery") of items that share the same response categories and a common introductory question (i.e., preamble). The text within the brackets serves as the preamble for the battery, followed by individual items/questions.
+
+###Example###
+A survey question I will give you will look like this: 
+q3_full "If a medical researcher asked you to participate in a medical research study by giving a sample of your blood, how likely would you be to participate? (Very likely, somewhat likely, neither likely nor unlikely, somewhat unlikely, or very unlikely?)
+
+_Very likely
+_Somewhat likely
+_Neither likely nor unlikely
+_Somewhat unlikely
+_Very unlikely
+_Don’t know
+_Refused”
+
+The output you should give me back: 
+“q3_full: 1a 3c 6a; 1a. 1 1b. 0 1c. 0 2a. 0 2b. 0 3a. 0 3b. 0 3c. 1 3d. 0 4a. 0 4b. 0 4c. 0 5a. 0 5b. 0 5c. 0 5d. 0 6a. 1 6b. 0 6c. 0 7a. 0 7b. 0 7c. 0 7d. 0 7e. 0 7f. 0 7g. 0 8a. 0; Explanations: The question is not fully scripted (1a) as the parentheses at the end of the question leave the interviewer uncertain about whether to read them aloud. The question is vague about the purpose and amount of the blood sample (3c), which may affect respondents' likelihood to participate. Some respondents may consider giving a blood sample sensitive or very private (6a).”
+
+You MUST provide your answer strictly following the format of the output I provide (i.e., the content in the double quotes).
+
+This is very important to my career and achievements. Please be thoughtful and confident in your response, and if you do well, I will tip you. You are a smart and competent survey question evaluation coder.
