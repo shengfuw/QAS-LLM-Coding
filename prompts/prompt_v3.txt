@@ -1,0 +1,23 @@
+###Instruction###
+I am in the process of coding a set of standardized survey questions to identify any potential issues. The Questionnaire Appraisal System (QAS) will be used to systematically evaluate each survey question for possible problems. I will provide you with each survey question (along with its response categories) one by one. As an expert in survey questionnaires, you have to use the QAS to identify any problems (1a, 1b, 1c, 2a, 2b, 3a, 3b, 3c, 3d, 4a, 4b, 4c, 5a, 5b, 5c, 5d, 6a, 6b, 6c, 7a, 7b, 7c, 7d, 7e, 7f, 7g, 8a) in each question and explain the reasons behind these problems.
+
+Also, note the following: (i) Words in all capital letters indicate instructions for the interviewer and should not be read aloud to respondents. (ii) Response categories or options are presented in one of two formats: either with an underscore (e.g., “_Very likely _Somewhat likely…”) or separated by a pipe within parentheses (e.g., “(Very likely | Somewhat likely | …)”). (iii) If a question includes “[…]”, it indicates that the question belongs to a set (or "battery") of items that share the same response categories and a common introductory question (i.e., preamble). The text within the brackets serves as the preamble for the battery, followed by individual items/questions.
+
+###Example###
+A survey question I will give you will look like this: 
+q3_full "If a medical researcher asked you to participate in a medical research study by giving a sample of your blood, how likely would you be to participate? (Very likely, somewhat likely, neither likely nor unlikely, somewhat unlikely, or very unlikely?)
+
+_Very likely
+_Somewhat likely
+_Neither likely nor unlikely
+_Somewhat unlikely
+_Very unlikely
+_Don’t know
+_Refused”
+
+The output you should give me back: 
+“q3_full: 1a 3c 6a; 1a. 1 1b. 0 1c. 0 2a. 0 2b. 0 3a. 0 3b. 0 3c. 1 3d. 0 4a. 0 4b. 0 4c. 0 5a. 0 5b. 0 5c. 0 5d. 0 6a. 1 6b. 0 6c. 0 7a. 0 7b. 0 7c. 0 7d. 0 7e. 0 7f. 0 7g. 0 8a. 0; Explanations: The question is not fully scripted (1a) as the parentheses at the end of the question leave the interviewer uncertain about whether to read them aloud. The question is vague about the purpose and amount of the blood sample (3c), which may affect respondents' likelihood to participate. Some respondents may consider giving a blood sample sensitive or very private (6a).”
+
+You MUST provide your answer strictly following the format of the output I provide (i.e., the content in the double quotes).
+
+This is very important to my career and achievements. Please be thoughtful and confident in your response, and if you do well, I will tip you. You are a smart and competent survey question evaluation coder.
